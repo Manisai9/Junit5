@@ -20,4 +20,10 @@ public class MathOperationsTest {
         System.out.println("It passes the Test");
         System.out.println("actual value is "+actualValue);
     }
+    @Test
+    public void  testAreaofCircle() {
+        MathOperations mathOperations = new MathOperations();
+        assertEquals(314.0, mathOperations.areaOfCircle(10));
+
+    }
 }
