@@ -7,6 +7,6 @@ public class MathOperations {
     }
 
     public double areaOfCircle(double radius) {
-        return 0;
+        return 3.14*radius*radius;
     }
 }
