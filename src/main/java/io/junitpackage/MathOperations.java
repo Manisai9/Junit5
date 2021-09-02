@@ -6,6 +6,14 @@ public class MathOperations {
         return a + b;
     }
 
+    public int sub(int a, int b) {
+        return a - b;
+    }
+
+    public int multiply(int a, int b) {
+        return a * b;
+    }
+
     public double areaOfCircle(double radius) {
         return 3.14*radius*radius;
     }
