@@ -59,6 +59,17 @@ public class MathOperationsTest {
     }
 
     @Test
+    @DisplayName("sub method")
+    public void  testSub() {
+         assertAll(
+                 () -> assertEquals(25, math.multiply(5,5)),
+                 ()-> assertEquals(-25, math.multiply(-5,5))
+         );
+        //assertEquals(5, math.multiply(10,2));
+
+    }
+
+    @Test
     @Disabled
     @DisplayName("Multiply method should not run")
     public void testDisabled() {
